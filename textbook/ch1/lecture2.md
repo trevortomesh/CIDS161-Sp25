@@ -58,7 +58,7 @@ The Role of Computing in World War II
 Computing advanced significantly due to codebreaking efforts during WWII.
 	•	The Enigma Machine was a German encryption device used to encode military communications.
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/Enigma_(crittografia)_-_Museo_scienza_e_tecnologia_Milano.jpg" alt="drawing" width="600"/>
+<img src="/textbook/assets/images/Enigma_(crittografia)_-_Museo_scienza_e_tecnologia_Milano.jpg" alt="drawing" width="600"/>
 
 ​	
 
@@ -68,7 +68,7 @@ Alan Turing and the Bombe Machine
 
 One of the most famous figures in computing history, Alan Turing, helped develop a device called the Bombe, which was used to break Enigma’s encryption.
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/bombe.jpg" alt="drawing" width="500"/>
+<img src="/textbook/assets/images/bombe.jpg" alt="drawing" width="500"/>
 
 ​	•	Turing’s work shortened WWII by an estimated 2-5 years and saved millions of lives.
 ​	•	This was a major step toward modern computing.
@@ -83,19 +83,19 @@ Tally Sticks (~50,000–12,000 BCE)
 	•	One of the earliest mathematical tools, used for counting and record-keeping.
 	•	Example: The Ishango Bone (Democratic Republic of Congo), possibly the first counting device.
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/bone.jpg" alt="drawing" width="200"/>
+<img src="/textbook/assets/images/bone.jpg" alt="drawing" width="200"/>
 
 Abacus (~2,000 BCE)
 	•	An early calculating tool used to perform addition and subtraction quickly.
 	•	Still used today in some regions!
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/abacus.jpg" width="500"/>
+<img src="/textbook/assets/images/abacus.jpg" width="500"/>
 
 Calculi (Counting Stones) (~3,400 BCE - 3,000 BCE)
 	•	Used in ancient Mesopotamia to track trade transactions.
 	•	Clay tokens represented quantities of goods and were stored in sealed clay balls to prevent fraud.
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/calculi.jpg" width="500"/>
+<img src="/textbook/assets/images/calculi.jpg" width="500"/>
 
 2. Mechanical Computers
 
@@ -104,18 +104,18 @@ As civilizations advanced, so did computing devices:
 The Antikythera Mechanism (~100 BCE)
 	•	An ancient Greek mechanical computer used to predict astronomical events.
 	•	Considered the first analog computer.
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/am.jpg" width="500"/>
+<img src="/textbook/assets/images/am.jpg" width="500"/>
 
 Astrolabes (~150 BCE - 1600s CE)
 	•	Used by sailors to navigate using the stars.
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/astrolabe.jpg" width="500"/>
+<img src="/textbook/assets/images/astrolabe.jpg" width="500"/>
 
 Slide Rule (1620s - 1970s)
 	•	A mechanical tool used for multiplication, division, logarithms, and trigonometry.
 	•	Used by engineers and scientists before calculators existed!
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/sliderule.jpg" width="500"/>
+<img src="/textbook/assets/images/sliderule.jpg" width="500"/>
 
 3. The First Programmable Machines
 
@@ -123,20 +123,20 @@ The Jacquard Loom (1804)
 	•	One of the first programmable machines, used for weaving textiles.
 	•	Used punch cards to store and execute patterns.
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/jl.jpg" width="300"/>
+<img src="/textbook/assets/images/jl.jpg" width="300"/>
 
 Punch Cards (~1800s - 1980s)
 	•	Used to store data and program early computers.
 	•	Found in early voting systems, census data collection, and IBM mainframes.
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/pc.jpg" width="500"/>
+<img src="/textbook/assets/images/pc.jpg" width="500"/>
 
 Charles Babbage’s Analytical Engine (~1837)
 	•	Considered the first general-purpose programmable computer.
 	•	Designed but never built due to lack of funding.
 	•	Introduced ideas like memory storage and an arithmetic unit (which modern computers still use).
 
-<img src="/Users/trevortomesh/Desktop/SP2025/UWRF/CIDS161-Sp25/textbook/assets/images/cb.jpg" width="500"/>
+<img src="/textbook/assets/images/cb.jpg" width="500"/>
 
 Computing in the 20th Century
 
