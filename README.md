@@ -15,8 +15,9 @@ All resources are designed to support your learning and help you master the fund
 ### **Textbook Chapters**  
 
 - [Chapter 0: Course Introduction](textbook/ch0/lecture1.md)  
-- [Chapter 1: The Foundations of Computing](textbook/ch1/lecture2.md)  
-
+#### **Chapter 1: The Foundations of Computing***
+- [Lecture 2: History of CS Pt. 1](textbook/ch1/lecture2.md)  
+- [Lecture 3: History of CS Pt. 2](textbook/ch1/lecture3.md)
 ---
 
 ### **Code Repository**  

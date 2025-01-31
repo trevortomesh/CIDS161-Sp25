@@ -1,5 +1,6 @@
 # CIDS 161: Introduction to Computing
 ## Lecture 2 - January 29, 2025
+## The History of Computer Science (Pt. 1)
 
 ---
 
