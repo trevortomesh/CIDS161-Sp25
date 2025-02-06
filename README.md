@@ -15,11 +15,13 @@ All resources are designed to support your learning and help you master the fund
 ### **Textbook Chapters**  
 
 - [Chapter 0: Course Introduction](textbook/ch0/lecture1.md)  
-#### **Chapter 1: The Foundations of Computing***
+#### **Chapter 1: The Foundations of Computing**
 - [Lecture 2: History of CS Pt. 1](textbook/ch1/lecture2.md)  
 - [Lecture 3: History of CS Pt. 2](textbook/ch1/lecture3.md)
 - [Lecture 4: Information Theory](textbook/ch1/lecture4.md)
+- [Lecture 5: What is a Computer](textbook/ch1/lecture5.md)
 ---
+#### **Chapter 2: Introduction to Python Programming**
 
 ### **Code Repository**  
 
