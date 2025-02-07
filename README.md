@@ -22,7 +22,7 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 5: What is a Computer](textbook/ch1/lecture5.md)
 ---
 #### **Chapter 2: Introduction to Python Programming**
-
+- [Lecture 6: Intro to Python](textbook/ch2/lecture6.md)
 ### **Code Repository**  
 
 This repository also contains all the **code examples** written throughout the semester. The code is structured to align with the lectures and exercises. You can access and download these files to **practice on your own**.  
