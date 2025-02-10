@@ -17,5 +17,4 @@
 # print(z)
 f = eval(input("Enter degrees Fahrenheit: "))
 print(str(f) + " degrees Fahrenheit is ")
-print((5 / 9) * (f - 32))
-print(" degrees Celsius!")
+print(str((5 / 9) * (f - 32)) + " degrees Celsius!")
