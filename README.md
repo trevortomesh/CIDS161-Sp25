@@ -23,6 +23,10 @@ All resources are designed to support your learning and help you master the fund
 ---
 #### **Chapter 2: Introduction to Python Programming**
 - [Lecture 6: Intro to Python](textbook/ch2/lecture6.md)
+- [Lecture 8: Using Python as a Calculator and Basic Operations](textbook/ch2/lecture8.md)
+### **Appendix**
+- [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
+
 ### **Code Repository**  
 
 This repository also contains all the **code examples** written throughout the semester. The code is structured to align with the lectures and exercises. You can access and download these files to **practice on your own**.  
