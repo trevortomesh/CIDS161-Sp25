@@ -80,5 +80,35 @@ print("The average of", num1, num2, num3, "is", average)
 - Introduction to functions for reusable code
 - More advanced string formatting (`f-strings`)
 
+# Practice Problems: Using Python as a Calculator and Basic Operations
+
+## Section 1: Basic Arithmetic Operations
+
+1. Write a Python expression to add 15 and 27.
+2. Subtract 34 from 92 using Python.
+3. Multiply 8 by 13 and print the result.
+4. Divide 144 by 12 and store the result in a variable. Print the variable.
+5. What happens if you divide 10 by 3? Try it in Python.
+6. Calculate the result of the following expression in Python: `(20 + 5) * 3`
+
+## Section 2: Using `eval()` for Expressions
+
+1. Use `eval()` to compute the result of the user-inputted expression: `"5 + 10 - 2"`.
+2. Modify the previous program so the user can enter their own expression.
+3. What happens if the user enters a string instead of a mathematical expression? Try it and note the error message.
+4. Use `eval()` to evaluate the following input: `"(30 - 5) / 5"`.
+
+## Section 3: Problem Solving with Arithmetic
+
+1. A store is offering a 20% discount on an item that costs $50. Write a Python expression to calculate the final price.
+2. If you buy 3 apples for $0.75 each, how much will the total cost be? Write a Python expression.
+3. You drive 150 miles using 5 gallons of gas. Write an expression to compute your miles per gallon (MPG).
+4. If a rectangle has a width of 7 units and a height of 12 units, write a Python expression to compute its area.
+5. A person runs 5 miles in 40 minutes. Write an expression to compute their speed in miles per minute.
+
+Try writing the solutions for each of these problems in Python, and test them in an interpreter! 🚀
+
+
+
 **End of Lecture**
 
