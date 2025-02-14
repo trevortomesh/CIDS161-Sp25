@@ -24,6 +24,7 @@ All resources are designed to support your learning and help you master the fund
 #### **Chapter 2: Introduction to Python Programming**
 - [Lecture 6: Intro to Python](textbook/ch2/lecture6.md)
 - [Lecture 8: Using Python as a Calculator and Basic Operations](textbook/ch2/lecture8.md)
+- [Lecture 9: Variable Naming Conventions and Best Practices](textbook/ch2/lecture9.md)
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 
