@@ -212,15 +212,44 @@
 ###########################################################
 # Simultaneous assignment
 # var1, var2, ..., varn = exp1, exp2, ..., expn
-x = 1
-y = 2
+# x = 1
+# y = 2
+#
+# x, y = y, x
+#
+# # temp = x
+# # x = y
+# # y = temp
+#
+# print("x is now", x)
+# print("y is now", y)
+#
+# print(2//4)
+# print(4**0.5)
+#
+# print(5%2)
 
-x, y = y, x
+# #############################################################
+# # Time Converter
+#
+# # 1. Prompt the user for input
+# seconds = eval(input("Enter an integer number of seconds: "))
+#
+# # 2. Convert to minutes + seconds
+# minutes = seconds // 60
+# remaining_seconds = seconds % 60
+#
+# # 3. Output the solution
+# print(seconds, "seconds is", minutes, "minutes and",
+#       remaining_seconds, "seconds")
+#########################################################
 
-# temp = x
-# x = y
-# y = temp
+# Evaluating expressions and operator precedence
+x = 5
+y = 3
+a = 1
+b = 2
+c = 3
 
-print("x is now", x)
-print("y is now", y)
-
+print((3 + 4 * x) / 5 - 10 * (y - 5) * (a + b + c) / x + 9 * (4 / x + (9+x) / y))
+print(((3 + 4 * x) / 5) - (10 * (y - 5) * (a + b + c)) / x + (9 * (4 / x + (9+x) / y)))

@@ -27,6 +27,7 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 9: Variable Naming Conventions and Best Practices](textbook/ch2/lecture9.md)
 - [Lecture 10: Variables and Identifiers](textbook/ch2/lecture10.md)
 - [Lecture 11: Variables and Basic Operators](textbook/ch2/lecture11.md)
+- [Lecture 12: Numeric Data Types, Operators, and Order of Operations](textbook/ch2/lecture12.md)
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 
