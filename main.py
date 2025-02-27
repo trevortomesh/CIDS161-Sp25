@@ -243,13 +243,60 @@
 # print(seconds, "seconds is", minutes, "minutes and",
 #       remaining_seconds, "seconds")
 #########################################################
-
+# PEMDAS - parenthesis, exponents, multiply, divide, add, subtract
 # Evaluating expressions and operator precedence
-x = 5
-y = 3
-a = 1
-b = 2
-c = 3
+# x = 5
+# y = 3
+# a = 1
+# b = 2
+# c = 3
+#
+# print((3 + 4 * x) / 5 - 10 * (y - 5) * (a + b + c) / x + 9 * (4 / x + (9+x) / y))
+# print(((3 + 4 * x) / 5) - (10 * (y - 5) * (a + b + c)) / x + (9 * (4 / x + (9+x) / y)))
 
-print((3 + 4 * x) / 5 - 10 * (y - 5) * (a + b + c) / x + 9 * (4 / x + (9+x) / y))
-print(((3 + 4 * x) / 5) - (10 * (y - 5) * (a + b + c)) / x + (9 * (4 / x + (9+x) / y)))
+#######################################################################
+# Augmented Assignment Operators
+#
+# a = 0
+# print("a was",a)
+# # a = a + 1
+# a += 2
+# print("a is now",a)
+#
+# # a = a -3
+# a -= 3
+# print("a is now",a)
+#
+# # a = a *2
+# a *= 2
+# print("a is now",a)
+#
+# # a = a / 2
+# a /= 2
+# print("a is now",a)
+#
+#
+# a = 3
+# # a = a // 2
+# a //= 2
+# print("a is now",a)
+#
+# a = 3
+# #a = a%2
+# a %= 2
+# print("a is now",a)
+#
+# a = 3
+# # a = a**2
+# a **= 2
+# print("a is now",a)
+
+######################################################################
+# type conversion / casting
+a = 1
+a = a + 0.5   # cast an into to a float implicitly
+print(int(a)) # cast a float to an int explicitly
+print(3.0//2) # WTF?!?!?!
+
+value = 5.6
+print(round(5.6))
