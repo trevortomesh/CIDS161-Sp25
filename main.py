@@ -199,6 +199,7 @@
 # j = k
 # i = j
 # '''
+from operator import truediv
 
 #####################################################################
 # scope: the scope of a variable is the part of the program
@@ -293,10 +294,75 @@
 
 ######################################################################
 # type conversion / casting
-a = 1
-a = a + 0.5   # cast an into to a float implicitly
-print(int(a)) # cast a float to an int explicitly
-print(3.0//2) # WTF?!?!?!
+# a = 1
+# a = a + 0.5   # cast an into to a float implicitly
+# print("a as a float is now",a)
+# print("a as an integer is", int(a)) # cast a float to an int explicitly
+# # print(3.0//2) # WTF?!?!?!
+#
+# value = 5.6
+# print(round(5.6))
 
-value = 5.6
-print(round(5.6))
+########### DATA TYPES REVIEW #################
+# x = 10
+# y = -5
+# z = 0
+#
+# print(type(x))
+# print(type(y))
+# print(type(z))
+#
+# # Strings
+#
+# greeting = "Hello, World!"
+# name = 'Python'
+# multiline = """This is
+# a multiline
+# string."""
+#
+# print(type(greeting))
+#
+# joined = greeting + ' ' + name + ' ' + multiline
+# print(joined)
+
+# floats
+
+# a = 3.14
+# b = -0.5
+# c = 10.0
+# d = 0.0
+#
+# print(type(a))
+# print(type(b))
+# print(type(c))
+# print(type(d))
+#
+# print(a + b)
+# print(0.1 + 0.2)
+
+# # booleans
+# a = True
+# b = False
+# print(type(a))
+
+# complex numbers a + bi
+# c1 = 2 + 3j
+# c2 = 1 - 4j
+#
+# print(type(c1))
+# print(c1 + c2)
+
+# print(int(3.9))
+# print(float(10))
+# print(str(42))
+# a = 42.0 + 12j
+# print("The meaning of life, the universe and everything is " + str(a))
+# print(bool(0))
+# print(bool(1))
+# print(bool("I like eggs!"))
+# print(bool(0.0))
+# print(bool(100.0))
+
+answer = input("Is it nice out? (True or False)")
+if answer == "True":
+    print("You should go for a walk!")
