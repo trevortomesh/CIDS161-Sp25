@@ -30,6 +30,10 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 12: Numeric Data Types, Operators, and Order of Operations](textbook/ch2/lecture12.md)
 - [Lecture 13: Augmented Assignment Operators and Type Conversion](textbook/ch2/lecture13.md)
 - [Lecture 14: Type Casting and Conversion](textbook/ch2/lecture14.md)
+---
+#### **Chapter 3: Selections**
+-[Lecture 15: if-else Statements](textbook/ch3/lecture15.md)
+
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 
