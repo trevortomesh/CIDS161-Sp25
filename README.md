@@ -32,7 +32,8 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 14: Type Casting and Conversion](textbook/ch2/lecture14.md)
 ---
 #### **Chapter 3: Selections**
--[Lecture 15: if-else Statements](textbook/ch3/lecture15.md)
+- [Lecture 15: if-else Statements](textbook/ch3/lecture15.md)
+- [Lecture 16: Selections in Python (If-Else Statements)](/textbook/ch3/lecture16.md)
 
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
