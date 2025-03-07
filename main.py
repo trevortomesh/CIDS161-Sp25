@@ -58,20 +58,43 @@
 # else:
 #     print("Grade: F")
 
-gate1_open = False
-gate2_open = False
-gate3_open = False
+# gate1_open = True
+# gate2_open = True
+# gate3_open = True
+#
+# if gate1_open:
+#     print("Gate 1 has been breeched!")
+#     if gate2_open:
+#         print("Gate 2 has been breeched!")
+#         if gate3_open:
+#             print("Gate 3 has been breeched!")
+#             print("The King Is Dead!")
+#
+# temperature = 10
+# if temperature > 80:
+#     print("It's too hot!")
+# else:
+#     print("It's not too hot!")
 
-if gate1_open == True:
-    print("Gate 1 has been breeched!")
-    if gate2_open == True:
-        print("Gate 2 has been breeched!")
-        if gate3_open == True:
-            print("Gate 3 has been breeched!")
-            print("The King Is Dead!")
+########### ADDITION QUIZ! #################
 
-temperature = 10
-if temperature > 80:
-    print("It's too hot!")
-else:
-    print("It's not too hot!")
+# import random
+#
+# # 1) Generate 2 random integers between 0 and 9
+# number1 = random.randint(0,9)
+# number2 = random.randint(0,9)
+#
+# # 2) Prompt the user to enter an answer
+# answer = eval(input("What is " + str(number1) + " + " + str(number2) + "? "))
+#
+# # 3) Determine if correct
+#
+# correct_answer = number1 + number2
+# if correct_answer == answer:
+#     print("That is correct!")
+# else:
+#     print("Incorrect! The correct answer is " + str(correct_answer))
+
+######## NON INTEGER RANDOM NUMBERS ###################
+import random
+print(random.random())
