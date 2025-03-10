@@ -35,6 +35,7 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 15: if-else Statements](textbook/ch3/lecture15.md)
 - [Lecture 16: Selections in Python (If-Else Statements)](textbook/ch3/lecture16.md)
 - [Lecture 17: Selections... and Random Number Generators!](textbook/ch3/lecture17.md)
+- [Lecture 18: Compound Conditions in Python](textbook/ch3/lecture18.md)
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 

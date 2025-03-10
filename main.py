@@ -96,5 +96,43 @@
 #     print("Incorrect! The correct answer is " + str(correct_answer))
 
 ######## NON INTEGER RANDOM NUMBERS ###################
-import random
-print(random.random())
+# import random
+# print(random.random())
+
+################# LOGICAL OPERATORS ####################
+# x = 5
+# y = 2
+# if(x > y):
+#     print(x > y)
+#     print(str(x) + " is greater than " + str(y))
+# elif(x < y):
+#     print(str(x)+ " is less than " + str(y))
+# else:
+#     print(str(x) + " is equal to " + str(y))
+
+# x = 10
+# y = -10
+# print(x > 0)
+# print(y > 0)
+# print(x > 0 and not y > 0)
+#
+# if(x > 0 and y > 0):
+#     print("x is > 0 and y > 0")
+
+# 1) check if number is divisible by 2 and 3
+# 2) check if number is divisible by 2 OR 3
+# 3) check if number is divisible by 2 OR 3 but NOT BOTH
+
+# 1) Ask user for input
+number = eval(input("Enter an integer: "))
+
+# 2) check conditions 1 2 and 3
+if number % 2 == 0 and number % 3 == 0:
+    print(number, "is divisible by 2 AND 3")
+
+if number % 2 == 0 or number % 3 == 0:
+    print(number, "is divisible by 2 OR 3")
+
+if (number % 2 == 0 or number % 3 == 0) and not \
+    (number % 2 == 0 and number % 3 == 0):
+        print(number, "is divisible by 2 or 3, but not both!")
