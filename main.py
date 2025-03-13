@@ -1,4 +1,5 @@
 # calculate the area of a circle:
+import math
 
 # radius = eval(input("Input a positive value for radius: "))
 # if radius < 0:
@@ -124,15 +125,48 @@
 # 3) check if number is divisible by 2 OR 3 but NOT BOTH
 
 # 1) Ask user for input
-number = eval(input("Enter an integer: "))
+#number = eval(input("Enter an integer: "))
 
-# 2) check conditions 1 2 and 3
-if number % 2 == 0 and number % 3 == 0:
-    print(number, "is divisible by 2 AND 3")
+# # 2) check conditions 1 2 and 3
+# if number % 2 == 0 and number % 3 == 0:
+#     print(number, "is divisible by 2 AND 3")
+#
+# if number % 2 == 0 or number % 3 == 0:
+#     print(number, "is divisible by 2 OR 3")
+#
+# if (number % 2 == 0 or number % 3 == 0) and not \
+#     (number % 2 == 0 and number % 3 == 0):
+#         print(number, "is divisible by 2 or 3, but not both!")
 
-if number % 2 == 0 or number % 3 == 0:
-    print(number, "is divisible by 2 OR 3")
 
-if (number % 2 == 0 or number % 3 == 0) and not \
-    (number % 2 == 0 and number % 3 == 0):
-        print(number, "is divisible by 2 or 3, but not both!")
+############# INTRODUCING LOOPS!!!! ###########################
+
+
+# count = 0
+# while count < 100:
+#     print("Are we there yet?", count)
+#     count = count + 1
+#
+#
+# print("We're there...")
+
+# # sum all the numbers between 0 and 100
+# addyThing = 0
+# count = 1
+# while count < 100:
+#     addyThing = addyThing + count
+#     print(count, addyThing)
+#     count = count + 1
+#
+# print("sum is:", addyThing)
+# print("sum from 0 to 99 is", sum(range(100)))
+
+################### DRINKING SONG!!!! ####################
+
+beers = 99
+
+while beers > 0:
+    print(beers, "bottles of beer on the wall", beers, "bottles of beer!")
+    print("Take one down... pass it around...")
+    beers = beers - 1
+    print(beers, "bottles of beer on the wall!")

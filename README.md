@@ -36,6 +36,10 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 16: Selections in Python (If-Else Statements)](textbook/ch3/lecture16.md)
 - [Lecture 17: Selections... and Random Number Generators!](textbook/ch3/lecture17.md)
 - [Lecture 18: Compound Conditions in Python](textbook/ch3/lecture18.md)
+---
+### **Chapter 4: Loops**
+- [Lecture 19: While Loops](textbook/ch4/lecture19.md)
+
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 
