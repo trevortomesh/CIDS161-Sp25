@@ -22,10 +22,47 @@
 # while continueLoop == 'Y' or continueLoop == 'y':
 #     continueLoop = input("Would you like to continue? (Y/N):")
 
-data = eval(input("Enter an integer (the input ends if it is 0): "))
+# data = eval(input("Enter an integer (the input ends if it is 0): "))
+#
+# sum = 0
+# while data != 0:
+#     sum += data
+#     print("this is in the while loop!")
+#     data = eval(input("Enter an integer (the input ends if it is 0): "))
+#
+# print("this is not!")
+# print("The sum is", sum)
 
-sum = 0
-while data != 0:
-    sum += data
-    data = eval(input("Enter an integer (the input ends if it is 0): "))
-print("The sum is", sum)
+# count = 0
+# while count <= 100:
+#     print(count)
+#     count = count + 1
+#
+
+# for variable in sequence
+# for i in range(100, 0, -1):
+#     print(i)
+
+# for beers in range(99, 0, -1):
+#     if beers == 1:
+#         print(beers, "bottle of beer on the wall")
+#         print(beers, "bottle of beer!")
+#         print("Take one down, pass it around...")
+#         print(beers - 1, "bottles of beer on the wall!")
+#         print("*******************************")
+#
+#     else:
+#         print(beers, "bottles of beer on the wall")
+#         print(beers, "bottles of beer!")
+#         print("Take one down, pass it around...")
+#         print(beers-1 , "bottles of beer on the wall!")
+#         print("*******************************")
+
+count = 0
+while count < 5:
+    count2 = 0
+    while count2 < 3:
+        print(count2)
+        count2 = count2 + 1
+    count = count + 1
+    print("count is: ", count)
