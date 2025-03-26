@@ -17,6 +17,7 @@
 #         print("Your guess is too high!")
 #     else:
 #         print("Your guess is too low!")
+import time
 
 # continueLoop = 'Y'
 # while continueLoop == 'Y' or continueLoop == 'y':
@@ -58,11 +59,52 @@
 #         print(beers-1 , "bottles of beer on the wall!")
 #         print("*******************************")
 
-count = 0
-while count < 5:
-    count2 = 0
-    while count2 < 3:
-        print(count2)
-        count2 = count2 + 1
-    count = count + 1
-    print("count is: ", count)
+# count = 0
+# while count < 5:
+#     count2 = 0
+#     while count2 < 3:
+#         print(count2)
+#         count2 = count2 + 1
+#     count = count + 1
+#     print("count is: ", count)
+
+# print("Hello World!")
+
+# for hours in range(0,24):
+#
+#     for minutes in range(0,60):
+#         for seconds in range(0,60):
+#             print("It has been ",hours, " hours ", minutes, " minutes and ",
+#                   seconds, " seconds")
+#             time.sleep(1)
+
+# sum = 0
+# number = 0
+#
+# while True:
+#     number += 1
+#     sum += number
+#
+#     if sum >= 100:
+#         break
+#
+#     print("The number is ", number)
+#     print("The sum is", sum)
+
+# print("This program prints Let's-a-go! until you say stop!")
+# while True:
+#     print("Let's-a-go!")
+#     go_again = input("Should Mario go again? (y/n)")
+#     if go_again != "y":
+#         break
+
+sum = 0
+number = 0
+
+while number < 20:
+    number += 1
+    if number == 10 or number == 11:
+        continue
+    sum += number
+    print("The number is now", number)
+    print("The sum is now ", sum)

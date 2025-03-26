@@ -41,6 +41,7 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 19: While Loops](textbook/ch4/lecture19.md)
 - [Lecture 20: Selections and Loops](textbook/ch4/lecture20.md)
 - [Lecture 21: The For Loop](textbook/ch4/lecture21.md)
+- [Lecture 22: Nested Loops, Break and Continue Statements](textbook/ch4/lecture22.md)
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 
