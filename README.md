@@ -42,6 +42,7 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 20: Selections and Loops](textbook/ch4/lecture20.md)
 - [Lecture 21: The For Loop](textbook/ch4/lecture21.md)
 - [Lecture 22: Nested Loops, Break and Continue Statements](textbook/ch4/lecture22.md)
+- [Lecture 23: Prime Number Generator and Loop Review](textbook/ch4/lecture23.md)
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 

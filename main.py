@@ -98,13 +98,41 @@ import time
 #     if go_again != "y":
 #         break
 
-sum = 0
-number = 0
+# sum = 0
+# number = 0
+#
+# while number < 20:
+#     number += 1
+#     if number == 10 or number == 11:
+#         continue
+#     sum += number
+#     print("The number is now", number)
+#     print("The sum is now ", sum)
 
-while number < 20:
+NUMBER_OF_PRIMES = 50
+NUMBER_OF_PRIMES_PER_LINE = 10
+count = 0
+number  = 2
+
+print("The first 50 prime numbers are")
+while count < NUMBER_OF_PRIMES:
+
+    # Assume the number is prime
+    is_prime = True
+
+    divisor = 2
+    while divisor <= number / 2:
+        if number % divisor == 0:
+            #if true... number is not prime
+            is_prime = False
+            break
+        divisor += 1
+
+    if is_prime:
+        count += 1
+        print(format(number, "5d"), end = '')
+        if count % NUMBER_OF_PRIMES_PER_LINE == 0:
+            print()
+
     number += 1
-    if number == 10 or number == 11:
-        continue
-    sum += number
-    print("The number is now", number)
-    print("The sum is now ", sum)
+
