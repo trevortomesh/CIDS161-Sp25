@@ -45,7 +45,7 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 23: Prime Number Generator and Loop Review](textbook/ch4/lecture23.md)
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
-
+- [Lecture 24: Midterm Review](textbook/appendix/lecture24.md)
 ### **Code Repository**  
 
 This repository also contains all the **code examples** written throughout the semester. The code is structured to align with the lectures and exercises. You can access and download these files to **practice on your own**.  
