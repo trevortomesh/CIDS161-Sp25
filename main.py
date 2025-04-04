@@ -1,138 +1,55 @@
-# import random
-#
-# # 1) Generate a random number to be guessed
-# number = random.randint(0,100)
-# guess = -1
-#
-# while guess != number:
-#     # 2) Prompt the user for input
-#     print("Guess a number between 0 and 100!")
-#     guess = eval(input("Enter your guess: "))
-#
-#     # 3) Determine if the number is higher, lower or et the guess
-#
-#     if guess == number:
-#         print("Yes! The number is", number)
-#     elif guess > number:
-#         print("Your guess is too high!")
-#     else:
-#         print("Your guess is too low!")
-import time
+def sum(i1, i2):
+    result = 0
+    for i in range(i1,i2+1):
+        result += i
+    return result
 
-# continueLoop = 'Y'
-# while continueLoop == 'Y' or continueLoop == 'y':
-#     continueLoop = input("Would you like to continue? (Y/N):")
+def sayhi():
+    return "Hi!"
 
-# data = eval(input("Enter an integer (the input ends if it is 0): "))
-#
-# sum = 0
-# while data != 0:
-#     sum += data
-#     print("this is in the while loop!")
-#     data = eval(input("Enter an integer (the input ends if it is 0): "))
-#
-# print("this is not!")
-# print("The sum is", sum)
+def sayhello():
+    print("Hello!")
 
-# count = 0
-# while count <= 100:
-#     print(count)
-#     count = count + 1
-#
+def add_stuff():
+    a = 2
+    b = 2
+    c = a + b
 
-# for variable in sequence
-# for i in range(100, 0, -1):
-#     print(i)
+def max(num1, num2):
+    if num1 > num2:
+        sayhello()
+        return num1
+    else:
+        print(sayhi())
+        return num2
 
-# for beers in range(99, 0, -1):
-#     if beers == 1:
-#         print(beers, "bottle of beer on the wall")
-#         print(beers, "bottle of beer!")
-#         print("Take one down, pass it around...")
-#         print(beers - 1, "bottles of beer on the wall!")
-#         print("*******************************")
-#
-#     else:
-#         print(beers, "bottles of beer on the wall")
-#         print(beers, "bottles of beer!")
-#         print("Take one down, pass it around...")
-#         print(beers-1 , "bottles of beer on the wall!")
-#         print("*******************************")
+def main():
+    print("Sum from 1 to 10 is", sum(1,10))
+    print("Sum from 20 to 37 is", sum(20,37))
+    print("Sum from 35 to 49 is", sum(35,49))
+    print(sayhi())
+    sayhello()
+    add_stuff()
 
-# count = 0
-# while count < 5:
-#     count2 = 0
-#     while count2 < 3:
-#         print(count2)
-#         count2 = count2 + 1
-#     count = count + 1
-#     print("count is: ", count)
-
-# print("Hello World!")
-
-# for hours in range(0,24):
-#
-#     for minutes in range(0,60):
-#         for seconds in range(0,60):
-#             print("It has been ",hours, " hours ", minutes, " minutes and ",
-#                   seconds, " seconds")
-#             time.sleep(1)
+    z = max(2,5)
+    print(z)
+    print(max(1,4))
+main() # call the main function
 
 # sum = 0
-# number = 0
 #
-# while True:
-#     number += 1
-#     sum += number
+# for i in range(1,11):
+#     sum += i
+# print("Sum from 1 to 10 is", sum)
 #
-#     if sum >= 100:
-#         break
-#
-#     print("The number is ", number)
-#     print("The sum is", sum)
-
-# print("This program prints Let's-a-go! until you say stop!")
-# while True:
-#     print("Let's-a-go!")
-#     go_again = input("Should Mario go again? (y/n)")
-#     if go_again != "y":
-#         break
-
 # sum = 0
-# number = 0
 #
-# while number < 20:
-#     number += 1
-#     if number == 10 or number == 11:
-#         continue
-#     sum += number
-#     print("The number is now", number)
-#     print("The sum is now ", sum)
-
-NUMBER_OF_PRIMES = 50
-NUMBER_OF_PRIMES_PER_LINE = 10
-count = 0
-number  = 2
-
-print("The first 50 prime numbers are")
-while count < NUMBER_OF_PRIMES:
-
-    # Assume the number is prime
-    is_prime = True
-
-    divisor = 2
-    while divisor <= number / 2:
-        if number % divisor == 0:
-            #if true... number is not prime
-            is_prime = False
-            break
-        divisor += 1
-
-    if is_prime:
-        count += 1
-        print(format(number, "5d"), end = '')
-        if count % NUMBER_OF_PRIMES_PER_LINE == 0:
-            print()
-
-    number += 1
-
+# for i in range(20, 38):
+#     sum += i
+# print("Sum from 20 to 38 is", sum)
+#
+# sum = 0
+#
+# for i in range(35, 50):
+#     sum += i
+# print("Sum from 35 to 50 is", sum)
