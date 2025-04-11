@@ -8,3 +8,9 @@ def gcd(n1, n2):
 
         k += 1
     return gcd
+
+def main():
+    print("test")
+
+if __name__ == "__main__":
+    main()

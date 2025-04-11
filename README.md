@@ -48,6 +48,8 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 25: Functions](textbook/ch5/lecture25.md)
 - [Lecture 26: Introduction to Functions, Scope, and Modules](textbook/ch5/lecture26.md)
 - [Lecture 27: Functions, Turtle Graphics, and Modular Code](textbook/ch5/lecture27.md)
+- [Lecture 28: Turtles, Scope, and __main__](textbook/ch5/lecture28.md)
+
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 - [Lecture 24: Midterm Review](textbook/appendix/lecture24.md)
