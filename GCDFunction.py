@@ -10,7 +10,7 @@ def gcd(n1, n2):
     return gcd
 
 def main():
-    print("test")
+    print("GCDFunction running...")
 
 if __name__ == "__main__":
     main()

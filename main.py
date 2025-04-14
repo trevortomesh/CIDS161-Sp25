@@ -1,83 +1,71 @@
 import turtle
 from GCDFunction import *
-
-color = "red" #global variable
-
-my_num = 10 #global number
-
-
-def add_nums():
-    local_num = 12
-    print(my_num + local_num)
-
-def draw_and_define_new_color(t):
-    new_color = "blue"
-
-    t.penup()
-    t.goto(100, -50)
-    t.pendown()
-    t.color(new_color)
-
-    for _ in range(3):
-        t.forward(60)
-        t.right(120)
+#
+# #y = 3
+# x = 1
+# globalVar = 1
+# def f1():
+#     x = 2
+#     print(x)
+#
+# def f2():
+#     localVar = 2
+#     print(globalVar)
+#     print(localVar)
+#
+# def increase():
+#     global x
+#     x = x + 1
+#     print(x)
 
 
-def draw_with_undefined_color(t):
-    t.penup()
-    t.goto(100, 100)
-    t.pendown()
-    t.color(undefined_color)
+# def sum(a = 0,b = 0):
+#     return a+b
+#
+# def printArea(width = 1, height = 2):
+#     area = width * height
+#     print("width:",width,"\theight:",height,"\tarea:",area)
 
-    for _ in range(4):
-        t.forward(50)
-        t.right(90)
-
-def draw_with_local_color(t):
-    color = "green"
-    t.penup()
-    t.goto(100, 100)
-    t.pendown()
-    t.color(color)
-
-    for _ in range(4):
-        t.forward(50)
-        t.right(90)
-
-def draw_with_global_color(t):
-    t.penup()
-    t.goto(-100, 100)
-    t.pendown()
-    t.color(color)
-
-    for _ in range(4):
-        t.forward(50)
-        t.right(90)
+def sort(number1, number2):
+    if number1 < number2:
+        return number1, number2
+    else:
+        return number2, number1
 
 def main():
-    print(my_num)
-    add_nums()
-    screen = turtle.Screen()
-    screen.title("Turtles Are Fun!")
-    screen.bgcolor("lightblue")
+    print(sort(3,3))
 
-    leo = turtle.Turtle()
-    leo.shape("turtle")
-    leo.speed(1)
+    # print(sum())
+    # print(sum(3,3))
+    # printArea(3,3)
+    # printArea()
+    # printArea(height = 5, width = 3)
+    # printArea(width=3)
+    # printArea(height=4)
 
-    draw_with_global_color(leo)
-    draw_with_local_color(leo)
-    #draw_with_undefined_color(leo)
-    draw_and_define_new_color(leo)
 
-    leo.penup()
-    leo.goto(0, -150)
-    leo.pendown()
-    leo.color(color)
-    leo.write(f"Global color is: {color}", align="center",
-              font=("Arial", 24, "italic"))
 
-    turtle.done()
+    # increase()
+    # print(x)
+
+    # sum = 0
+    # for i in range(5):
+    #     sum += i
+    # print(i)
+
+    # x = eval(input("Enter a number: "))
+    # if x > 0:
+    #     y = 4
+    #
+    # print(y)
+
+    #f2()
+    #print(globalVar)
+    #print(localVar)
+    #print("test")
+    #f1()
+    #print(x)
+
 
 if __name__ == "__main__":
     main()

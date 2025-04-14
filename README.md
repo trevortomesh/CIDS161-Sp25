@@ -49,6 +49,7 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 26: Introduction to Functions, Scope, and Modules](textbook/ch5/lecture26.md)
 - [Lecture 27: Functions, Turtle Graphics, and Modular Code](textbook/ch5/lecture27.md)
 - [Lecture 28: Turtles, Scope, and __main__](textbook/ch5/lecture28.md)
+- [Lecture 29: Variable Scope and Function Flexibility in Python](textbook/ch5/lecture29.md)
 
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
