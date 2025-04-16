@@ -51,6 +51,9 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 28: Turtles, Scope, and __main__](textbook/ch5/lecture28.md)
 - [Lecture 29: Variable Scope and Function Flexibility in Python](textbook/ch5/lecture29.md)
 
+### **Chapter 6: Strings, Datatypes and File I/O**
+- [Lecture 30: Strings](textbook/ch6/lecture30.md)
+
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 - [Lecture 24: Midterm Review](textbook/appendix/lecture24.md)
