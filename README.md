@@ -53,6 +53,7 @@ All resources are designed to support your learning and help you master the fund
 
 ### **Chapter 6: Strings, Datatypes and File I/O**
 - [Lecture 30: Strings](textbook/ch6/lecture30.md)
+- [Lecture 31: String Formatting and Output Control](textbook/ch6/lecture31.md)
 
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
