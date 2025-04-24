@@ -55,6 +55,8 @@ All resources are designed to support your learning and help you master the fund
 - [Lecture 30: Strings](textbook/ch6/lecture30.md)
 - [Lecture 31: String Formatting and Output Control](textbook/ch6/lecture31.md)
 - [Lecture 32: File I/O, String Formatting](textbook/ch6/lecture32.md)
+- [Lecture 33: Reading and Writing Files, Exception Handling, and Numbering Records](textbook/ch6/lecture33.md)
+
 ### **Appendix**
 - [Lecture 7: Assignment Overview: Lethal Caffeine Dose Calculator](textbook/appendix/lecture7.md)
 - [Lecture 24: Midterm Review](textbook/appendix/lecture24.md)
